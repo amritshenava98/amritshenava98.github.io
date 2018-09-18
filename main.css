@@ -1,11 +1,11 @@
 .Shenava {
  padding: 10px;
- border: 25px;
+ border: 25px solid #000000;
 }
 
 .aboutme {
  padding: 10px;
- border: 5px;
+ border: 5px solid #000000;
 }
 
 ul{
