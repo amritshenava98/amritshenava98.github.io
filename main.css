@@ -1,11 +1,12 @@
 body {
  font-family: 'Black Han Sans', sans-serif;
- background-color: yellow;
+
 }
 
 .Shenava {
  padding: 10px;
  border: 25px solid #000000;
+  background-color: yellow;
 }
 
 .aboutme {
