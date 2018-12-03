@@ -3,7 +3,8 @@
   <head>
     <title>Shenava. Amrit Shenava</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+   <script src="jquery-3.3.1.min.js"></script>	  
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
@@ -26,24 +27,12 @@ channelId="315c5fc9-3aba-418e-99e4-c0dcb9cc61df"
 token="932454ee86120cf3f0c93c245b37187d"
 id="recast-webchat"
 ></script>
-<script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
-        <script>
-          
-          
-          const ball = document.querySelector(' .shenavaintro');
-const ballStyler = styler(ball);
-
-tween({
-  from: { x: 0, scale: 1 },
-  to: { x: 300, scale: 2 },
-  ease: easing.easeInOut,
-  flip: Infinity,
-  duration: 1000
-}).start(v => ballStyler.set(v));
-                         
-								
-																					
-        </script>
+<script>
+	$(function(){
+          $('shenava').toggle(1000).toggle(1000);	
+	});
+</script>	
+	
     </center>
   </body>
 </html>
