@@ -9,6 +9,10 @@ body {
   background-color: yellow;
 }
 
+.shenavamenu {
+ margin: 0px;
+ float: left;
+}
 .aboutme {
  padding: 10px;
  border: 5px solid #000000;
