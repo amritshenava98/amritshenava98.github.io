@@ -19,7 +19,7 @@ body {
   float: left;
   width : 200px;
   height : 40px;
-  background-color: black;
+  background-color: white;
   opacity: .8;
   line-height: 40px;
   text-align : center;
@@ -28,7 +28,7 @@ body {
 
 .shenavamenu ul li a {
   text-decoration : none;
-  color : white;
+  color : black;
   display : block;
 }
 
