@@ -34,7 +34,7 @@ body {
 
 .shenavamenu ul li a:hover{
   background-color: yellow;
-  border: 10px solid #000000;
+  border: 5px solid #000000;
 }
 
 .shenavamenu ul li ul li {
