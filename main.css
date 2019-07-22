@@ -9,12 +9,42 @@ body {
   background-color: yellow;
 }
 
-.shenavamenu {
- margin: 0px;
- padding: 10px;
- float: left;
- display: inline;
+.shenavamenu ul {
+  margin : 0px;
+  padding : 0px;
+  list-style : none;
 }
+
+.shenavamenu ul li {
+  float: left;
+  width : 200px;
+  height : 40px;
+  background-color: none;
+  opacity: .8;
+  line-height: 40px;
+  text-align : center;
+  font-size : 20px;
+}
+
+.shenavamenu ul li a {
+  text-decoration : none;
+  color : white;
+  display : block;
+}
+
+.shenavamenu ul li a:hover{
+  background-color: blue;
+}
+
+.shenavamenu ul li ul li {
+  display : none;
+}
+
+.shenavamenu ul li:hover ul li{
+  display : block;
+}
+
+
 .aboutme {
  padding: 10px;
  border: 5px solid #000000;
