@@ -11,7 +11,9 @@ body {
 
 .shenavamenu {
  margin: 0px;
+ padding: 10px;
  float: left;
+ display: inline;
 }
 .aboutme {
  padding: 10px;
