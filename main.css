@@ -51,6 +51,9 @@ body {
  border: 5px solid #000000;
 }
 
+.aboutme ul li {
+  display : inline;
+}
 ul{
  display: table;
  margin: 0 auto;
