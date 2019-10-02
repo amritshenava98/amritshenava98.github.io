@@ -24,10 +24,14 @@ body {
 
 button {
   background-color: white;
-  border: black solid;
+  border: black solid 30px;
   align-content: center;
   font-family: 'Black Han Sans', sans-serif;
   padding: 15px 32px;
+}
+
+button:hover {
+  background-color: yellow;
 }
 
 .shenavamenu {
