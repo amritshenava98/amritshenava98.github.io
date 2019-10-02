@@ -3,6 +3,19 @@ body {
 
 }
 
+button {
+  background-color: white;
+  border: black solid 30px;
+  align-content: center;
+  font-family: 'Black Han Sans', sans-serif;
+  padding: 15px 32px;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+
 .Shenava {
  padding: 10px;
  border: 25px solid #000000;
@@ -21,18 +34,6 @@ body {
   font-size : 20px;
 } */
 
-
-button {
-  background-color: white;
-  border: black solid 30px;
-  align-content: center;
-  font-family: 'Black Han Sans', sans-serif;
-  padding: 15px 32px;
-}
-
-button:hover {
-  background-color: yellow;
-}
 
 .shenavamenu {
   align-content: center;
