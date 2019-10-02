@@ -39,10 +39,6 @@ button:hover {
   border: black solid;
 }
 
-button:hover {
-  background-color: yellow;
-}
-
 .shenavamenu ul li {
   display: inline;
 }
