@@ -22,9 +22,10 @@ body {
 } */
 
 
-.shenavamenu button {
+button {
   background-color: white;
   border: black solid;
+  align-content: center;
 }
 
 .shenavamenu ul li {
