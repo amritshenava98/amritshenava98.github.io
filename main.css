@@ -15,7 +15,7 @@ body {
   list-style : none;
 }
 
-.shenavamenu ul li {
+/* .shenavamenu ul li {
   float: left;
   width : 200px;
   height : 40px;
@@ -24,7 +24,17 @@ body {
   line-height: 40px;
   text-align : center;
   font-size : 20px;
+} */
+
+
+.shenavamenu button {
+  background-color: white;
+  border: black solid;
+
+
+
 }
+
 
 .shenavamenu ul li a {
   text-decoration : none;
@@ -54,7 +64,9 @@ body {
 .aboutme ul li {
   display : inline;
 }
-ul{
+
+/*ul{
  display: table;
  margin: 0 auto;
 }
+*/
