@@ -30,31 +30,11 @@ body {
 .shenavamenu button {
   background-color: white;
   border: black solid;
-
-
-
 }
 
-
-.shenavamenu ul li a {
-  text-decoration : none;
-  color : black;
-  display : block;
+.shenavamenu ul li {
+  display: inline;
 }
-
-.shenavamenu ul li a:hover{
-  background-color: yellow;
-  border: 5px solid #000000;
-}
-
-.shenavamenu ul li ul li {
-  display : none;
-}
-
-.shenavamenu ul li:hover ul li{
-  display : block;
-}
-
 
 #aboutme {
  padding: 10px;
