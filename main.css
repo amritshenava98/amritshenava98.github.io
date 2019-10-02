@@ -26,10 +26,17 @@ button {
   background-color: white;
   border: black solid;
   align-content: center;
+  font-family: 'Black Han Sans', sans-serif;
+  padding: 15px 32px;
 }
+
 .shenavamenu {
   align-content: center;
   border: black solid;
+}
+
+button:hover {
+  background-color: yellow;
 }
 
 .shenavamenu ul li {
