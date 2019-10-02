@@ -3,15 +3,15 @@ body {
 
 }
 
-.shenavamenu button {
+button {
   background-color: white;
-  border: black solid 30px;
+  border: black solid;
   align-content: center;
   font-family: 'Black Han Sans', sans-serif;
   padding: 15px 32px;
 }
 
-.shenavamenu button:hover {
+button:hover {
   background-color: yellow;
 }
 
