@@ -15,18 +15,18 @@
       <div class="shenavamenu">
         <center>
           <ul>
-    	      <li><button><a href="#about">ABOUT</a></button></li>
-		        <li><button><a href="#my-skills">MY SKILLS</a></button></li>
-		        <li><button><a href="#projects">PROJECTS</a></button></li>
+    	      <li><button id="about-btn" onclick="openButton()">ABOUT</button></li>
+		        <li><button id="skills-btn" onclick="openSkills()">MY SKILLS</button></li>
+		        <li><button id="projects-btn" onclick="openProjects()">PROJECTS</button></li>
           </ul>
         </center>
       </div>
       <center>
-      <div class="aboutme">
+      <div id="aboutme">
       <h1>ABOUT</h1>
         <p>My name is Amrit Shenava and I am a Developer who is passionate about AI, Blockchain and Space. </p>
       </div>
-      <div class="myskills">
+      <div id="myskills">
       <h1>MY SKILLS</h1>
         <ul>
           <li>Web Development</li>
@@ -51,7 +51,18 @@ id="recast-webchat"
             });
       </script>
 
-	
+      <script type="text/javascript">
+        function openButton(){
+          document.getElementById('aboutme').style.display = "block";
+          document.getElementById('myskills').style.display = "none";
+        }
+
+        function openSkills(){
+          document.getElementById('myskills').style.display = "block";
+          document.getElementById('aboutme').style.display = "none";
+        }
+
+      </script>	
     </center>
   </body>
 </html>
