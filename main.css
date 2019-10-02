@@ -3,7 +3,7 @@ body {
 
 }
 
-button {
+.shenavamenu button {
   background-color: white;
   border: black solid 30px;
   align-content: center;
@@ -11,7 +11,7 @@ button {
   padding: 15px 32px;
 }
 
-button:hover {
+.shenavamenu button:hover {
   background-color: yellow;
 }
 
