@@ -53,6 +53,12 @@ button:hover {
   display : inline;
 }
 
+#myskills {
+ padding: 10px;
+ border: 5px solid #000000;
+
+}
+
 /*ul{
  display: table;
  margin: 0 auto;
