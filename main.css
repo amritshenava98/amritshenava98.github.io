@@ -57,10 +57,6 @@ button:hover {
  background-color: yellow;
 }
 
-#aboutme ul li {
-  display : inline;
-}
-
 #myskills {
  padding: 10px;
  border: 5px solid #000000;
@@ -69,6 +65,31 @@ button:hover {
 
 }
 
+#myskills ul li {
+  display : table;
+}
+
+#myskills ul li h1 {
+  
+}
+
+#myskills ul li p {
+
+}
+
+#web-dev {
+  padding: 50px;
+  border: 5px solid #000000;
+  background-color: white;
+  margin: 10px;
+}
+
+#mobile-dev {
+  padding: 50px;
+  border: 5px solid #000000;
+  margin: 10px;
+  background-color: white;
+}
 /*ul{
  display: table;
  margin: 0 auto;
