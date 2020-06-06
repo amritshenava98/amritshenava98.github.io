@@ -29,7 +29,7 @@
                 <a class="nav-link" onclick="openSkills()">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" onclick="openProjects()">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon</a>
@@ -73,16 +73,30 @@ id="recast-webchat"
       </script>
 
       <script type="text/javascript">
+        function openWelcome(){
+          document.getElementById('welcome').style.display = "block";
+          document.getElementById('aboutme').style.display = "none";
+          document.getElementById('welcome').style.display = "none";
+          document.getElementById('projects').style.display = "none";
+        }
+
         function openButton(){
           document.getElementById('aboutme').style.display = "block";
           document.getElementById('myskills').style.display = "none";
           document.getElementById('welcome').style.display = "none";
+          document.getElementById('projects').style.display = "none";
         }
 
         function openSkills(){
           document.getElementById('myskills').style.display = "block";
           document.getElementById('aboutme').style.display = "none";
           document.getElementById('welcome').style.display = "none";
+          document.getElementById('projects').style.display = "none";
+        }
+
+        function openProjects(){
+          document.getElementById('projects').style.display = "block";
+          document
         }
 
       </script>	
