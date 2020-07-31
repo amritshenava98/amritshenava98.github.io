@@ -16,20 +16,23 @@
       <div class="shenavamenu">
         <center>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" onclick="openWelcome()">Welcome</a>
+            <a class="navbar-brand" onclick="openWelcome()">Menu</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" onclick="openButton()">About</a>
+                <a class="nav-link" onclick="openAbout()">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onclick="openSkills()">Skills</a>
+                <a class="nav-link" onclick="openProjects()">Startups and Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onclick="openProjects()">Projects</a>
+                <a class="nav-link" onclick="openBlog()">Amrit's Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="openTwitter()">Amrit's Twitter</a>
               </li>
             </ul>
             </div>
@@ -38,27 +41,34 @@
       </div>
       <center>
       <div id="welcome">
-        <h1>Name : Amrth Ashok Shenava</h1>
-        <h1>University : Kent State University</h1>
-        <h1>Location : Kent, OH, USA</h1>
+        <h3>Name : Amrth Ashok Shenava</h3>
+        <h3>University : Kent State University</h3>
+        <h3>Location : Kent, OH, USA</h3>
+        <h3>To know more about me, click on About.</h3>
+        <h3>To know more about my projects and startups, click on Project Shenava</h3> 
+        <h3>To read my blog, click on Blog Shenava</h3>
+        <h3>To read my newsletter, click on ASNP</h3>
+        <h3>To listen to my motivational podcast, click on I Am A Coconut</h3>
       </div>
       <div id="aboutme">
         <h1>ABOUT</h1>
           <img src="images/amrit.jpg" width="250px" height="250px">
           <h3>My name is Amrit Shenava and I am a student at Kent State University in Ohio studying CS with a minor in Entrepreneurship. I love to solve complicated problems and in the process build my skills. I love attending Hackathons, working on side-projects and experiment with some startup ideas. I am interested in AI, Blockchain and non-tech interests include Philosophy, Economics, Startups and Investing. I am deeply passionate about solving issues in Mental Health, Housing and Education. On the side, I write blogs and newsletter and I also do motivational speaking. Favorite sports include Golf, Poker and Bridge.</h3>
       </div>
-      <div id="myskills">
-      <h1>MY SKILLS</h1>
-        <ul>
-          <li>Web Development</li>
-          <li>Mobile Development</li>
+      <div id="projects">
+        <h1>Project Shenava</h1>
+          <h3>Tech has been my passion since childhood.</h3>
+      </div>
+      <div id="blog">
+        <h1>Blog Shenava</h1>
+        <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various interests.
+        </h3>
       </div>
       <script src="https://cdn.recast.ai/webchat/webchat.js"
-channelId="315c5fc9-3aba-418e-99e4-c0dcb9cc61df"
-token="932454ee86120cf3f0c93c245b37187d"
-id="recast-webchat"
-></script>
- <script src="typed.js"></script>
+        channelId="315c5fc9-3aba-418e-99e4-c0dcb9cc61df"
+        token="932454ee86120cf3f0c93c245b37187d"
+        id="recast-webchat"></script>
+      <script src="typed.js"></script>
       <script>
             var typed = new Typed(".iam", {
                 strings: [
@@ -76,25 +86,27 @@ id="recast-webchat"
           document.getElementById('aboutme').style.display = "none";
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projects').style.display = "none";
+          document.getElementById('blog').style.display = "none";
         }
 
-        function openButton(){
+        function openAbout(){
           document.getElementById('aboutme').style.display = "block";
-          document.getElementById('myskills').style.display = "none";
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projects').style.display = "none";
-        }
-
-        function openSkills(){
-          document.getElementById('myskills').style.display = "block";
-          document.getElementById('aboutme').style.display = "none";
-          document.getElementById('welcome').style.display = "none";
-          document.getElementById('projects').style.display = "none";
+          document.getElementById('blog').style.display = "none";
         }
 
         function openProjects(){
           document.getElementById('projects').style.display = "block";
-          document
+          document.getElementById('aboutme').style.display = "none";
+          document.getElementById('welcome').style.display = "none";
+         //document.getElementById('projects').style.display = "none";
+          document.getElementById('blog').style.display = "none;"
+        }
+
+        function openBlog(){
+          document.getElementById('blog').style.display = "block";
+
         }
 
       </script>	
