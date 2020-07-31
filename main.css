@@ -16,6 +16,23 @@ button:hover {
 }
 
 
+footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    /*background-color: #333333;*/
+}
+
+footer p {
+    position: absolute;
+    width: 100%;
+    /*color: #fff;*/
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    bottom:0;
+}
+
 .Shenava {
  padding: 10px;
  border: 25px solid #000000;
@@ -72,6 +89,12 @@ button:hover {
  background-color: yellow;
 }
 
+#coconut {
+ padding: 10px;
+ border: 5px solid #000000;
+ display: none;
+ background-color: yellow;
+}
 /*
 #myskills ul li {
   display : table;

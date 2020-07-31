@@ -35,7 +35,7 @@
                 <a class="nav-link" onclick="openASNP()">ASNP</a>
               </li>
                <li class="nav-item">
-                <a class="nav-link" onclick="openCococnut()">I Am A Coconut</a>
+                <a class="nav-link" onclick="openCoconut()">I Am A Coconut</a>
               </li>
             </ul>
             </div>
@@ -61,13 +61,21 @@
       <div id="projectshenava">
         <h1>Project Shenava</h1>
           <img src="images/projectshenava.png" width="250px" height="250px">
-          <h3>Tech has been my passion since childhood. I see Coding as a superpower that can help solve problems around the world. I have been coding since a very young age and </h3>
+          <h3>Tech has been my passion since childhood. I see Coding as a superpower that can help solve problems around the world. I have been coding since a very young age and have been  </h3>
       </div>
       <div id="blog">
         <h1>Blog Shenava</h1>
+        <img src="images/BLOG SHENAVA.png" width="250px" height="250px">
         <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various topics.</h3>
       </div>
-      <div id="coconut"></div>
+      <div id="coconut">
+        <h1>I Am A Coconut</h1>
+        <img src="images/I AM A COCONUT.png" width="250px" height="250px">
+        <h3>I Am A Cococnut is where I make a difference on this planet.
+      </div>
+      <footer>
+        <p>&copy; Copyright 2020, <b><span id="amritshenava-title">AMRIT SHENAVA</span></b> by Amrit Shenava</p>
+      </footer>
       <!--<script src="https://cdn.recast.ai/webchat/webchat.js"
         channelId="315c5fc9-3aba-418e-99e4-c0dcb9cc61df"
         token="932454ee86120cf3f0c93c245b37187d"
@@ -98,6 +106,7 @@
           //document.getElementById('welcome').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
+          document.getElementById('coconut').style.display = "none";
         }
 
         function openAbout(){
@@ -105,6 +114,7 @@
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
+          document.getElementById('coconut').style.display = "none";
         }
 
         function openProjectShenava(){
@@ -113,6 +123,7 @@
           document.getElementById('welcome').style.display = "none";
          //document.getElementById('projects').style.display = "none";
           document.getElementById('blog').style.display = "none";
+          document.getElementById('coconut').style.display = "none";
         }
 
         function openBlog(){
@@ -120,6 +131,16 @@
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "block";
+          document.getElementById('coconut').style.display = "none";
+
+        }
+
+        function openCoconut(){
+          document.getElementById('coconut').style.display = "block";
+          document.getElementById('welcome').style.display = "none";
+          document.getElementById('projectshenava').style.display = "none";
+          document.getElementById('blog').style.display = "none";
+          document.getElementById('aboutme').style.display = "none";
 
         }
 
