@@ -95,6 +95,10 @@ footer p {
  display: none;
  background-color: yellow;
 }
+
+.div-info {
+  padding: 25px;
+}
 /*
 #myskills ul li {
   display : table;
