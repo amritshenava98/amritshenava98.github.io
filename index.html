@@ -58,18 +58,26 @@
           <img src="images/amrit.jpg" width="250px" height="250px">
           <h3>My name is Amrit Shenava and I am a student at Kent State University in Ohio studying CS with a minor in Entrepreneurship. I love to solve complicated problems and in the process build my skills. I love attending Hackathons, working on side-projects and experiment with some startup ideas. I am interested in AI, Blockchain and non-tech interests include Philosophy, Economics, Startups and Investing. I am deeply passionate about solving issues in Mental Health, Housing and Education. On the side, I write blogs and newsletter and I also do motivational speaking. Favorite sports include Golf, Poker and Bridge.</h3>
       </div>
-      <div id="projects">
+      <div id="projectshenava">
         <h1>Project Shenava</h1>
-          <h3>Tech has been my passion since childhood.</h3>
+          <h3>Tech has been my passion since childhood. I see Coding as a superpower that can help solve problems around the world. I have been coding since a very young age and persoan </h3>
       </div>
       <div id="blog">
         <h1>Blog Shenava</h1>
         <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various interests.</h3>
       </div>
-      <script src="https://cdn.recast.ai/webchat/webchat.js"
+      <div id="coconut"></div>
+      <!--<script src="https://cdn.recast.ai/webchat/webchat.js"
         channelId="315c5fc9-3aba-418e-99e4-c0dcb9cc61df"
         token="932454ee86120cf3f0c93c245b37187d"
-        id="recast-webchat"></script>
+        id="recast-webchat"></script>-->
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        chat-icon="https://storage.googleapis.com/cloudprod-apiai/f310b8d1-45e4-4b09-8c79-6563872fa652_x.png"
+        intent="WELCOME"
+        chat-title="bot-Shenava"
+        agent-id="b3567aea-089d-4e9d-9634-d4747b47d696"
+        language-code="en"></df-messenger>
       <script src="typed.js"></script>
       <script>
             var typed = new Typed(".iam", {
@@ -87,19 +95,19 @@
           document.getElementById('welcome').style.display = "block";
           document.getElementById('aboutme').style.display = "none";
           //document.getElementById('welcome').style.display = "none";
-          document.getElementById('projects').style.display = "none";
+          document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
         }
 
         function openAbout(){
           document.getElementById('aboutme').style.display = "block";
           document.getElementById('welcome').style.display = "none";
-          document.getElementById('projects').style.display = "none";
+          document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
         }
 
         function openProjectShenava(){
-          document.getElementById('projects').style.display = "block";
+          document.getElementById('projectshenava').style.display = "block";
           document.getElementById('aboutme').style.display = "none";
           document.getElementById('welcome').style.display = "none";
          //document.getElementById('projects').style.display = "none";
@@ -109,7 +117,7 @@
         function openBlog(){
           document.getElementById('aboutme').style.display = "none";
           document.getElementById('welcome').style.display = "none";
-          document.getElementById('projects').style.display = "none";
+          document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "block";
 
         }
