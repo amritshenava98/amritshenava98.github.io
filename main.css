@@ -67,6 +67,10 @@ footer p {
   display: inline;
 }
 
+.shenavamenu ul li:hover {
+  background-color: yellow;
+  border-radius: 25px;
+}
 #aboutme {
  padding: 10px;
  border: 5px solid #000000;
@@ -90,6 +94,13 @@ footer p {
 }
 
 #coconut {
+ padding: 10px;
+ border: 5px solid #000000;
+ display: none;
+ background-color: yellow;
+}
+
+#asnp {
  padding: 10px;
  border: 5px solid #000000;
  display: none;

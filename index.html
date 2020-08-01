@@ -68,6 +68,10 @@
         <img src="images/BLOG SHENAVA.png" width="250px" height="250px">
         <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various topics. Blogging h</h3>
       </div>
+      <div id="asnp">
+        <h1>ASNP(Amrit Shenava's Newsletter+Podcast</h1>
+        <img src="">
+      </div>
       <div id="coconut">
         <h1>I Am A Coconut</h1>
         <img src="images/I AM A COCONUT.png" width="250px" height="250px">
@@ -112,7 +116,7 @@
         function openWelcome(){
           document.getElementById('welcome').style.display = "block";
           document.getElementById('aboutme').style.display = "none";
-          //document.getElementById('welcome').style.display = "none";
+          document.getElementById('asnp').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
           document.getElementById('coconut').style.display = "none";
@@ -123,6 +127,7 @@
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
+          document.getElementById('asnp').style.display = "none";
           document.getElementById('coconut').style.display = "none";
         }
 
@@ -130,7 +135,7 @@
           document.getElementById('projectshenava').style.display = "block";
           document.getElementById('aboutme').style.display = "none";
           document.getElementById('welcome').style.display = "none";
-         //document.getElementById('projects').style.display = "none";
+          document.getElementById('asnp').style.display = "none";
           document.getElementById('blog').style.display = "none";
           document.getElementById('coconut').style.display = "none";
         }
@@ -140,8 +145,18 @@
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "block";
+          document.getElementById('asnp').style.display = "none";
           document.getElementById('coconut').style.display = "none";
 
+        }
+
+        function openASNP(){
+          document.getElementById('asnp').style.display = "block";
+          document.getElementById('aboutme').style.display = "none";
+          document.getElementById('welcome').style.display = "none";
+          document.getElementById('projectshenava').style.display = "none";
+          document.getElementById('blog').style.display = "none";
+          document.getElementById('coconut').style.display = "none";
         }
 
         function openCoconut(){
@@ -149,6 +164,7 @@
           document.getElementById('welcome').style.display = "none";
           document.getElementById('projectshenava').style.display = "none";
           document.getElementById('blog').style.display = "none";
+          document.getElementById('asnp').style.display = "none";
           document.getElementById('aboutme').style.display = "none";
 
         }
