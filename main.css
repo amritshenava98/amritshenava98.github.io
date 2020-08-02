@@ -110,6 +110,16 @@ footer p {
 .div-info {
   padding: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+  #iaacyoutube {
+    width: 300px;
+  }
+
+  #iaacpodcast {
+    width: 250px;
+  }
+}
 /*
 #myskills ul li {
   display : table;
