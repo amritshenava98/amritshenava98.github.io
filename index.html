@@ -45,6 +45,9 @@
         </center>
       </div>
       <center>
+      <div class="loader">
+        <span id="loader-countdown"></span>
+      </div>
       <div id="welcome">
         <h3>Name : Amrth Ashok Shenava</h3>
         <h3>University : Kent State University</h3>
@@ -69,6 +72,8 @@
         <h1>Blog Shenava</h1>
         <img src="images/BLOG SHENAVA.png" width="250px" height="250px">
         <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various topics. Blogging h</h3>
+        <blockquote class="embedly-card" data-card-theme="dark"><h4><a href="https://medium.com/blogshenava">Blog Shenava - Medium</a></h4><p>A major misconception that people have is that Blockchain is Crypto and Crypto is Blockchain. It is true that Crypto is Blockchain but Blockchain is much more than Crypto. In this article, I demystify my argument that Blockchain is much more than Crypto by providing...</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
       </div>
       <div id="asnp">
         <h1>ASNP(Amrit Shenava's Newsletter + Podcast)</h1>
@@ -113,7 +118,19 @@
                 loop: true// Default value
             });
       </script>
-
+      <script type="text/javascript">
+        var typed = new Typed(".loader-countdown", {
+                strings: [
+                "10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "Welcome to the world of Amrit Shenava"
+                ],
+                typeSpeed: 60,
+                backSpeed: 60,
+                loop: true// Default value
+            });
+        $(window).on("load", function(){
+          $(".loader").fadeOut("slow");
+        });
+      </script>
       <script type="text/javascript">
         function openWelcome(){
           document.getElementById('welcome').style.display = "block";

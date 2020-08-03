@@ -46,6 +46,12 @@ footer p {
   background-color: yellow;
 }
 
+.loader {
+  height: 100%
+  width: 100%;
+  position: absolute;
+  background-color: yellow;
+}
 /* .shenavamenu ul li {
   float: left;
   width : 200px;
