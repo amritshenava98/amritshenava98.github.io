@@ -6,13 +6,19 @@
     <meta name="google-site-verification" content="CoU0hGEY8nRhvfgXLaJJRvbZYsZ5tuN0BLRnkizZ95M" />
     <link rel="shortcut icon" href="images/amrit.png" type="image/png">
    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
-   <script src="jquery-3.3.1.min.js"></script>
+   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+   <!--<script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>-->
+    <!--<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>	  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-      <div id="shenavamain" class="Shenava">
+      
+      <div id="shenavamain" class="Shenava main">
 	      <h1 class="shenavaintro">AMRIT SHENAVA is a <span class="iam"></span></h1>
       </div>
       <div class="shenavamenu">
@@ -45,9 +51,9 @@
         </center>
       </div>
       <center>
-      <div class="loader">
-        <span id="loader-countdown"></span>
-      </div>
+     <!--<div class="loader">
+        <span class="loader-countdown"></span>
+      </div>-->
       <div id="welcome">
         <h3>Name : Amrth Ashok Shenava</h3>
         <h3>University : Kent State University</h3>
@@ -71,13 +77,17 @@
       <div id="blog">
         <h1>Blog Shenava</h1>
         <img src="images/BLOG SHENAVA.png" width="250px" height="250px">
-        <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various topics. Blogging h</h3>
-        <blockquote class="embedly-card" data-card-theme="dark"><h4><a href="https://medium.com/blogshenava">Blog Shenava - Medium</a></h4><p>A major misconception that people have is that Blockchain is Crypto and Crypto is Blockchain. It is true that Crypto is Blockchain but Blockchain is much more than Crypto. In this article, I demystify my argument that Blockchain is much more than Crypto by providing...</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        <h3>Blog Shenava is the official home of my blog. I write Blogs to share my thoughts on various topics.</h3>
+        <a href="https://amritshenava.wordpress.com"><button>BLOG ON WORDPRESS</button></a>
+        <a href="https://medium.com/blog-shenava"><button>BLOG ON MEDIUM</button></a>
+        
+        
       </div>
       <div id="asnp">
         <h1>ASNP(Amrit Shenava's Newsletter + Podcast)</h1>
-        <img src="">
+        <img src="images/asnp.png" width="250px" height="250px">
+        <h3>ASNP is my Newsletter+Podcast where I write and talk about my thoughts on various important topics that are currently making the rounds. ASNP is powered by Substack. To recieve my future newsletters, please subscribe at the box below.</h3>
+        <iframe src="https://amritshenava.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
       </div>
       <div id="coconut">
         <h1>I Am A Coconut</h1>
@@ -96,6 +106,9 @@
       <footer>
         <p>&copy; Copyright 2020, <b><span id="amritshenava-title">AMRIT SHENAVA</span></b> by Amrit Shenava</p>
       </footer>
+      <div class="loader hidden">
+        <h1><span class="loader-countdown"></span></h1>
+      </div>
       <!--<script src="https://cdn.recast.ai/webchat/webchat.js"
         channelId="315c5fc9-3aba-418e-99e4-c0dcb9cc61df"
         token="932454ee86120cf3f0c93c245b37187d"
@@ -117,20 +130,40 @@
                 backSpeed: 60,
                 loop: true// Default value
             });
-      </script>
-      <script type="text/javascript">
-        var typed = new Typed(".loader-countdown", {
+            /*var typed = new Typed(".loader-countdown", {
                 strings: [
-                "10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "Welcome to the world of Amrit Shenava"
+                "5", "4", "3", "2", "1", "Welcome to the world of Amrit Shenava"
                 ],
                 typeSpeed: 60,
                 backSpeed: 60,
-                loop: true// Default value
-            });
-        $(window).on("load", function(){
-          $(".loader").fadeOut("slow");
-        });
+                loop: false// Default value
+            });*/
       </script>
+
+     <!-- <script type="text/javascript">
+        /*$(document).ready(function(){
+          $(window).on("load", function(){
+            $(".loader").fadeOut("slow");
+          });
+        });*/
+
+        const loader = document.querySelector('.loader');
+        const main = document.querySelector('.Shenava');
+
+        function init(){
+          setTimeout(() => {
+            loader.style.opacity = 0;
+            loader.style.display = "none";
+
+            main.style.display = "block";
+            setTimeout(() => (main.style.display = 1, 50);
+          }, 4000);
+        }; 
+        
+        init();
+
+        
+      </script> -->
       <script type="text/javascript">
         function openWelcome(){
           document.getElementById('welcome').style.display = "block";
@@ -190,6 +223,8 @@
 
       </script>	
     </center>
+
+
 	  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

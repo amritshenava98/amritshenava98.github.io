@@ -37,6 +37,7 @@ footer p {
  padding: 10px;
  border: 25px solid #000000;
   background-color: yellow;
+  transition: opacity 2s ease-in;
 }
 
 
@@ -45,13 +46,30 @@ footer p {
   border: 5px solid #000000;
   background-color: yellow;
 }
-
+/*
 .loader {
-  height: 100%
   width: 100%;
-  position: absolute;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: yellow;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
+*/
+/*.loader.hidden {
+  animation: fadeOut 20s;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+*/
 /* .shenavamenu ul li {
   float: left;
   width : 200px;
