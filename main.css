@@ -1,5 +1,6 @@
 body {
- font-family: 'Black Han Sans', sans-serif;
+ /* font-family: 'Black Han Sans', sans-serif; */
+font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -35,8 +36,10 @@ footer p {
 
 .Shenava {
  padding: 10px;
- border: 25px solid #000000;
-  background-color: yellow;
+ /*border: 25px solid #000000;*/
+ border: 5px solid #000000;
+  /*background-color: rgba(240, 240, 0, 0.466);*/
+ background-color: #38B6FF;
   transition: opacity 2s ease-in;
 }
 
@@ -44,7 +47,8 @@ footer p {
 #welcome {
   padding : 10px;
   border: 5px solid #000000;
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-color: #38B6FF;
 }
 /*
 .loader {
@@ -92,14 +96,16 @@ footer p {
 }
 
 .shenavamenu ul li:hover {
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-color: #38B6FF;
   border-radius: 25px;
 }
 #aboutme {
  padding: 10px;
  border: 5px solid #000000;
  display: none;
- background-color: yellow;
+ background-color: #38B6FF;
+ /* background-color: yellow; */
 }
 
 #projectshenava {
@@ -121,7 +127,8 @@ footer p {
  padding: 10px;
  border: 5px solid #000000;
  display: none;
- background-color: yellow;
+ /* background-color: yellow; */
+ background-color: #38B6FF;
 }
 
 #asnp {
@@ -142,6 +149,10 @@ footer p {
 
   #iaacpodcast {
     width: 250px;
+  }
+
+  .Shenava {
+    height: 200px;
   }
 }
 /*
