@@ -13,7 +13,8 @@ button {
 }
 
 button:hover {
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-color: #38B6FF;
 }
 
 
@@ -112,7 +113,8 @@ footer p {
  padding: 10px;
  border: 5px solid #000000;
  display: none;
- background-color: yellow;
+ /* background-color: yellow; */
+ background-color: #38B6FF;
 
 }
 
